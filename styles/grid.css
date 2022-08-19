@@ -10,25 +10,25 @@
   align-items: center;
 }
 .grid-item {
-  max-width: 250px;
-  margin-top: 10px;
-  font-size: 15px;
+  max-width: 15.625rem;
+  margin-top: 0.625rem;
+  font-size: 0.9375rem;
 }
 .grid1,
 .grid2 {
-  margin-top: 12px;
+  margin-top: 0.75rem;
 }
 .grid3 {
-  margin-top: 45px;
+  margin-top: 2.8125rem;
 }
 .grid5 {
-  margin-top: 30px;
+  margin-top: 1.875rem;
 }
 .grid6 {
-  margin-top: 60px;
+  margin-top: 3.75rem;
 }
 .grid7 {
-  margin-top: 30px;
+  margin-top: 1.875rem;
 }
 .more {
   display: flex;
@@ -48,7 +48,7 @@
 }
 .more1-item {
   width: 25vw;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 }
 .more1-item > img {
   width: 100%;
@@ -58,12 +58,12 @@
   justify-content: end;
   text-decoration: none;
   color: gray;
-  font-size: 12px;
+  font-size: 0.75rem;
 }
 .opacity {
   text-decoration: none;
   color: #121212;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: 540;
 }
@@ -71,90 +71,89 @@
   opacity: 0.5;
 }
 .editor {
-  gap: 10px;
+  gap: 0.625rem;
 }
 .sneakers {
-  margin-top: 20px;
+  margin-top: 1.25rem;
 }
 .border-top {
-  margin-top: 80px;
-  padding: 20px 0;
-  border-top: 1px solid;
-  margin-right: 23px;
+  margin-top: 5rem;
+  padding: 1.25rem 0;
+  border-top: 0.0625rem solid;
+  margin-right: 1.4375rem;
 }
 .most-popular {
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 }
 .more2-para {
-  font-size: 15px;
-  border-top: 1px solid rgb(226, 224, 224);
-  padding: 15px 0;
+  font-size: 0.9375rem;
+  border-top:0.0625rem solid rgb(226, 224, 224);
+  padding: 0.9375rem 0;
 }
 .edit {
-  margin-top: 50px;
-  padding: 20px 0;
-  border-top: 1px solid;
+  margin-top: 3.125rem;
+  padding: 1.25rem 0;
+  border-top: 0.0625rem solid;
   width: 80vw;
 }
 .links-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-top: 1px solid gray;
-  margin-top: 1px;
-  padding: 10px;
+  border-top:0.0625rem solid gray;
+  margin-top: 0.0625rem ;
+  padding: 0.625rem;
 }
 .link {
-  border-top: 1px solid gray;
+  border-top: 0.0625rem solid gray;
   margin: auto;
-  margin-top: 30px;
+  margin-top: 1.875rem;
 }
 .links {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   margin: auto;
-  border-bottom: 1px solid rgb(255, 255, 255);
-  padding: 15px;
+  border-bottom: 0.0625rem solid rgb(255, 255, 255);
+  padding: 0.9375rem;
 }
 .links-para a {
   text-decoration: none;
   color: black;
-  font-size: 15px;
+  font-size: 0.9375rem;
 }
 .links-para a :hover {
   text-decoration: underline;
 }
 .links-para p {
-  margin-top: 8px;
+  margin-top: 0.5rem;
 }
 .sub {
-  border-left: 1px solid gray;
-  padding-left: 15px;
+  border-left: 0.0625rem solid gray;
+  padding-left: 0.9375rem;
 }
 .sub-img {
-  margin-top: 10px;
-  margin-right: 10px;
+  margin-top: 0.625rem;
+  margin-right: 0.625rem;
 }
 .sub-font {
-  font-size: 12px;
+  font-size: 0.75rem;
 }
 .border {
-  border-top: 1px solid rgb(204, 204, 204);
-  padding-top: 10px;
-  width: 200px;
+  border-top: 0.0625rem solid rgb(204, 204, 204);
+  padding-top: 0.625rem;
+  width: 12.5rem;
 }
 .footer {
-  border-top: 1px solid rgb(179, 178, 178);
-  /* width: 1180px; */
+  border-top: 0.0625rem solid rgb(179, 178, 178);
   margin: auto;
-  padding: 10px;
+  padding: 0.625rem;
 }
 .footer-links {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 15px;
-  font-size: 12px;
+  gap: 0.9375rem;
+  font-size: 0.75rem;
 }
 .footer-links a {
   text-decoration: none;
@@ -170,9 +169,9 @@
   align-items: center;
 }
 .footer-disp {
-  border-top: 1px solid;
-  margin: 20px 0;
-  padding: 10px 0;
+  border-top:0.0625rem solid;
+  margin: 1.25rem 0;
+  padding: 0.625rem 0;
   width: 100%;
 }
 .offer {
@@ -183,13 +182,13 @@
 }
 .pop2 {
   background-color: #4ea4e6;
-  margin: -20px 130px 40px 130px;
-  padding: 40px;
+  margin: -1.25rem 8.125rem 2.5rem 8.125rem;
+  padding: 2.5rem;
   text-align: center;
-  border-radius: 7px;
+  border-radius: 0.4375rem;
 }
 .pop {
-  height: 250px;
+  height: 15.625rem;
 }
 .pop-two {
   text-decoration: none;
@@ -199,27 +198,79 @@
   background-color: white;
   color: var(--black);
   font-weight: 900;
-  font-size: 11px;
-  padding: 10px;
-  margin-top: 10px;
-  width: 200px;
+  font-size: 0.6875rem;
+  padding: 0.625rem;
+  margin-top: 0.625rem;
+  width: 12.5rem;
 }
 .pause {
-  font-size: 10px;
-  margin-top: 5px;
+  font-size: 0.625rem;
+  margin-top: 0.3125rem;
 }
 .pop2-img {
   color: #4ea4e6;
-  padding: 4px;
+  padding: 0.25rem;
   background-color: white;
-  border-radius: 5px;
+  border-radius: 0.3125rem;
 }
 .go-to {
   text-decoration: none;
   color: #a9c3d6;
-  font-size: 12px;
+  font-size: 0.75rem;
 }
 @media (min-width:420px) {
+  .theory-para{
+    width: 80vw;
+  }
+  .grid-container {
+    display: block;
+    
+  }
+  .grid-item{
+    display: block;
+  }
+  
+  .more {
+    display: block;
+  }
+  
+  .more-item {
+    display: block;
+    width: 100vw;
+  }
+  .more1-item {
+    display: flex;
+    gap: 0.5rem;
+  }
+  .more1-item > img {
+    width: 30vw;
+    height: 9vh;
+  }
+  .left-link{
+    display: none;
+  }
+  .james{
+    width: 60vw;
+    margin-right: 0.625rem;
+  }
+  .opacity{
+    font-size: 0.85rem;
+  }
+  .more-date{
+    font-size: 0.6875;
+    color: gray;
+  }
+  .editor{
+    margin-left: -24.375rem;
+    margin-top: 6.25rem;
+  }
+  .more2,
+   .border-top{
+    width: 80vw;
+   }
+   .none{
+    display: none;
+   }
   .links-anchor,
   .sub{
     display: none;
@@ -256,10 +307,32 @@
   .offer{
     text-align: start;
   }
-}
 
-@media (min-width: 768px) {
-  .more1-item:nth-last-child(-n + 3) {
-    display: none;
   }
+@media (min-width: 768px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+  }
+  @media(min-width:992px){
+    .grid-container {
+      display: grid;
+      grid-template-columns:1fr 1fr 1fr;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  @media(min-width:1200px){
+    .grid-container {
+      display: grid;
+      grid-template-columns:1fr 1fr 1fr 1fr;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  /* .more1-item:nth-last-child(-n + 3) {
+    display: none;
+  } */
 }
