@@ -55,11 +55,10 @@ h1 {
 }
 
 .alan {
-  margin: 15px 0px 50px 2rem;
+  margin: 0.9375rem 0px 3.125rem 2rem;
   color: gray;
   width: 43.75rem;
 }
-
 .paragraph {
   max-width: 37.5rem;
   margin: auto;
@@ -67,6 +66,9 @@ h1 {
 .author {
   max-width: 37.5rem;
   margin: auto;
+  text-decoration: none;
+}
+.authors-name{
   text-decoration: underline;
 }
 .author:hover {
@@ -74,40 +76,39 @@ h1 {
 }
 
 .font {
-  font-size: 20px;
-  line-height: 25px;
+  font-size: 1.25rem;
+  line-height: 1.5625rem;
   font-family: helvetica, "Georgia", "Times New Roman", Times, serif;
   color: #242222;
 }
 
 .authors-date {
-  margin-bottom: 30px;
-  margin-top: 5px;
+  margin-bottom: 1.875rem;
+  margin-top: 0.3125rem;
 }
 
 .spec {
-  margin-top: 40px;
+  margin-top: 2.5rem;
 }
 
 .header2 {
-  padding: 20px 0px;
-  font-size: 20px;
+  padding: 1.25rem 0rem;
+  font-size: 1.25rem;
 }
 .to-float {
-  width: 62.5;
+  width: 62.5rem;
   margin: auto;
 }
 .left {
   float: left;
   margin-left: 5vw;
-  /* margin-right: 100px; */
 }
 .float.editor-pick {
   display: none;
   float: left;
-  width: 250px;
-  margin-right: -100px;
-  margin-top: 200px;
+  width: 15.625rem;
+  margin-right: -6.25rem;
+  margin-top: 12.5rem;
 }
 .edit-pick {
   border-bottom: 1px solid rgb(203, 203, 203);
@@ -118,7 +119,6 @@ h1 {
 }
 .float-2 {
   float: left;
-  /* width: 100px; */
   clear: left;
   margin-top: 15px;
 }
@@ -191,7 +191,6 @@ button {
   word-spacing: 2px;
   border: #567b95;
   border-radius: 4px;
-  /* width: 600px; */
   cursor: pointer;
 }
 
@@ -221,13 +220,132 @@ button:hover {
 .bottom-section-one {
   width: 100%;
 }
-
-@media (min-width: 820px) {
-  .float.editor-pick {
-    display: unset;
+@media (min-width: 420px){
+  h1{
+    font-size: 2rem;
+    width: 90vw;
   }
-  h1 {
-    border-bottom: none;
+  .sec-one-icons{
+    width: 70vw;
+  }
+  .alan{
+    width: 85vw;
+    margin: 1rem auto;
+  }
+  .paragraph{
+    width: 92vw;
+    margin: auto;
+    font-size: 1.1rem;
+  }
+  .author{
+    color: #242222;
+    font-size: 0.85rem;
+  }
+  .dennis{
+    width: 92vw;
+    margin: auto;
+  }
+  .authors-date{
+    font-size: 0.75rem;
+  }
+  .to-float{
+    width: 92vw;
+  }
+  .editor-pick{
+    display: none;
+  }
+  .larry-b{
+    width: 15vw;
+    margin-left: 1rem;
+    margin-bottom: -2rem;
+  }
+  .larry{
+    font-size: 0.875rem;
+  }
+  .font{
+    margin-top: 1rem;
+  }
+  iframe{
+    width: 100vw;
+    height: 40vh;
+  }
+  .stanford{
+    color: gray;
+    font-size: 0.9rem;
+    margin-bottom: -1rem;
+  }
+  .version{
+    font-size: 0.75rem;
+  }
+  button{
+    height: 6vh;
+  }
+  .space-astronomy{
+    font-size: 0.9123rem;
   }
   
+}
+
+@media (min-width: 1200px) {
+  h1{
+    line-height: 2rem;
+    font-weight: 900;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+     
+  }
+  .sec-one-icons{
+    padding-left: 3.75rem;
+  }
+  
+  .image{
+    width: 80vw;
+    margin: auto;
+  }
+  .alan{
+    width: 80vw;
+  }
+  .dennis{
+   margin-right: -16.875rem;
+  }
+  .to-float {
+    width: 62.5rem;
+  }
+  .left {
+    float: left;
+    margin-left: 15vw;
+  }
+  .float.editor-pick {
+    display: block;
+    float: left;
+    width: 15.625rem;
+    margin-right: -6.25rem;
+    margin-top: 12.5rem;
+  }
+  .edit-pick {
+    border-bottom: 1px solid rgb(203, 203, 203);
+    width: 15.625rem;
+    padding: 10px 0;
+    margin-bottom: 5px;
+    font-size: 17px;
+  }
+  .float-2 {
+    float: left;
+    clear: left;
+    margin-top: 15px;
+  }
+  .float-3 {
+    float: left;
+    width: 11.25rem;
+    margin-top: 15px;
+    padding: 10px;
+  }
+  .clear{
+    clear: left;
+  }
+  iframe{
+    width: 50vw;
+    height: 60vh;
+  
+}
+
 }

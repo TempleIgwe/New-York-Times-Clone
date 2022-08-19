@@ -125,22 +125,25 @@ h6 {
   }
   
 }
-@media (min-width: 768px){
-  .subscribe{
+@media(min-width: 1200px){
+  .top-right .fa-magnifying-glass {
+    display: block;
+  }
+  .space {
+    display: block;
+  }
+  .subscribe,
+  .login {
     display: inline-block;
     height: 5vh;
   }
-  .login{
-    display: inline-block;
+  .top-left{
     margin-right: 2rem;
-    height: 5vh;
   }
-  .name{
+  .name {
     display: none;
   }
-  .hidden{
-    display: none;
-  }
+  
 }
 
 
