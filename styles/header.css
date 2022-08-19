@@ -138,6 +138,9 @@ h6 {
   .name{
     display: none;
   }
+  .hidden{
+    display: none;
+  }
 }
 
 
