@@ -226,4 +226,8 @@ button:hover {
   .float.editor-pick {
     display: unset;
   }
+  h1 {
+    border-bottom: none;
+  }
+  
 }
