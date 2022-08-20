@@ -316,6 +316,7 @@
     justify-content: center;
     align-items: center;
   }
+}
   @media(min-width:992px){
     .grid-container {
       display: grid;
@@ -325,14 +326,108 @@
     }
   }
   @media(min-width:1200px){
+    .iframe-container{
+      width: 50vw;
+    }
     .grid-container {
       display: grid;
       grid-template-columns:1fr 1fr 1fr 1fr;
       justify-content: center;
       align-items: center;
     }
+    .more {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      
+    }
+    .more1 {
+      grid-column-start: 1;
+      grid-column-end: 2;
+      
+      
+    }
+    .more2 {
+      grid-column-start: 4;
+      grid-column-end: 5;
+      /* width: 30vw; */
+      height: 100%;
+    }
+    
+    .more-item {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      
+    }
+    .more1-item {
+      display: grid;
+      /* gap: 0.5rem; */
+    }
+    .more1-item > img {
+      width: 25vw;
+      height: 30vh;
+    }
+    .left-link{
+      display: block;
+    }
+    .james{
+      width: 60vw;
+    }
+    .opacity{
+      font-size: 0.85rem;
+    }
+    .more-date{
+      font-size: 0.6875;
+      color: gray;
+    }
+    .editor{
+      margin-left: -24.375rem;
+      margin-top: 6.25rem;
+    }
+    .more2{
+      width: 80vw;
+     }
+     .none{
+      display: block;
+     }
+    .links-anchor,
+    .sub{
+      display: block;
+    }
+    .link{
+      width: 95vw;
+    }
+    .links{
+      display: grid;
+      padding: 0 1.25rem;
+    }
+    .links-para{
+      padding-bottom: 1rem;
+      border-top: 1px solid rgb(231, 231, 231);
+      width: 10vw;
+    }
+    h5{
+      margin-top: 0.9375rem;
+    }
+    .copyright{
+      text-align: center;
+      text-decoration: none;
+      color: gray;
+      font-size: 0.75rem;
+      margin-bottom: 1rem;
+    }
+    .footer{
+      width: 90vw;  
+    }
+    .expand,
+    .pop{
+      display: block;
+    }
+    .expand1{
+      display: none;
+    }
+    .offer{
+      text-align: center;
+    }
   }
-  /* .more1-item:nth-last-child(-n + 3) {
-    display: none;
-  } */
-}
+  
+
