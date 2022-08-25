@@ -5,7 +5,8 @@
 }
 
 .main-wrap {
-  width: 100vw;
+  /* width: 100vw; */
+  padding: 1rem;
 }
 
 .sec-one-icons,
@@ -13,7 +14,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 10px 300px 10px 0px;
+  margin: 0.625rem 18.75rem 0.625rem 0px;
+}
+.gift-img{
+  width: 1.975rem;
 }
 
 .gift-icon {
@@ -137,20 +141,25 @@ h1 {
 }
 
 .section-three {
-  max-width: 62.5rem;
+  max-width: 62.5rem; 
   margin: auto;
   padding-top: 50px;
 }
+
+.section-three .grid-container {
+  gap: 10px;
+}
+
 .larry-b {
   margin-top: 30px;
   border-top: 1px solid;
-  width: 5rem;
+  /* width: 5rem; */
 }
 
 .larry {
   margin: 30px 0;
-  width: 25rem;
-  margin-bottom: 60px;
+  /* width: 25rem; */
+  /* margin-bottom: 60px; */
 }
 
 .gravity {
@@ -185,7 +194,7 @@ h1 {
 }
 
 button {
-  padding: 13px;
+  margin-bottom:10px ;
   background-color: rgb(75, 130, 170);
   color: white;
   word-spacing: 2px;
@@ -214,13 +223,14 @@ button:hover {
 }
 
 .bottom-icons {
-  width: 24.375rem;
+  width: 100%;
 }
 
 .bottom-section-one {
   width: 100%;
 }
-@media (min-width: 420px){
+@media (min-width: 300px){
+  
   h1{
     font-size: 2rem;
     width: 90vw;
@@ -233,7 +243,7 @@ button:hover {
     margin: 1rem auto;
   }
   .paragraph{
-    width: 92vw;
+    width: 75vw;
     margin: auto;
     font-size: 1.1rem;
   }
@@ -255,19 +265,21 @@ button:hover {
     display: none;
   }
   .larry-b{
-    width: 15vw;
+    /* width: 10vw; */
     margin-left: 1rem;
-    margin-bottom: -2rem;
+    /* margin-bottom: -2rem; */
   }
   .larry{
-    font-size: 0.875rem;
+    font-size: 0.575rem;
+    
   }
   .font{
     margin-top: 1rem;
   }
+  
   iframe{
-    width: 100vw;
-    height: 40vh;
+    width: 70vw;
+    height: 70vh;
   }
   .stanford{
     color: gray;
@@ -278,21 +290,46 @@ button:hover {
     font-size: 0.75rem;
   }
   button{
-    height: 6vh;
+    height: 8vh;
+  }
+  /* .bottom-icons {
+    padding-right: 8rem;
+  }  */
+  .bottom-icon,
+  .gift{
+    margin-right: -1rem;
+  }
+  h3{
+    font-size: 0.75rem;
   }
   .space-astronomy{
     font-size: 0.9123rem;
   }
+  /* .editor{
+    margin-left: -250px;
+  } */
+  .links-logo{
+    width: 5rem;
+  }
+  /* .main-wrap{
+    overflow: hidden;
+  } */
   
+}
+@media (min-width:768px){
+  .edit-display{
+    display: none;
+  }
+  .editor{
+    display: flex;
+  }
 }
 @media (min-width: 992px){
   iframe{
     width: 50vw;
     height: 60vh;
 }
-.editor-pick{
-  visibility: hidden;
-}
+
 }
 
 @media (min-width: 1200px) {
@@ -351,10 +388,14 @@ button:hover {
   .clear{
     clear: left;
   }
+ 
   iframe{
     width: 50vw;
     height: 60vh;
   
-}
+  }
+ 
+  
+
 
 }

@@ -5,7 +5,7 @@
 }
 
 .heading {
-  width: 100vw;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -95,7 +95,7 @@ h6 {
   text-align: center;
   color: rgb(203, 203, 203);
 }
-@media (min-width: 420px) {
+@media (min-width: 300px) {
   .top-right .fa-magnifying-glass {
     display: none;
   }
@@ -107,9 +107,9 @@ h6 {
     display: none;
   }
   .name {
-    display: inline-block;
+    display: unset;
     width: 4vw;
-    margin-right: 2rem;
+    margin-right: 1rem;
   }
   .top-center{
     margin: auto;
@@ -125,7 +125,12 @@ h6 {
   }
   
 }
-@media(min-width: 1200px){
+@media (min-width:768px){
+  .name{
+    width: 2vw;
+  }
+}
+@media(min-width: 996px){
   .top-right .fa-magnifying-glass {
     display: block;
   }
