@@ -36,25 +36,13 @@
 .more {
   display: grid;
 }
-/* .more1 {
-  grid-column-start: 4;
-  grid-column-end: 4;
-} */
-/* .more2 {
-  width: 30vw;
-  height: 100%;
-} */
 .more-item {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
 .more1-item {
-  /* width: 25vw; */
   margin-bottom: 1.25rem;
 }
-/* .more1-item > img {
-  width: 100vw;
-} */
 .left-link {
   display: grid;
   justify-content: end;
@@ -75,14 +63,11 @@
 .editor {
   gap: 0.625rem;
 }
-/* .sneakers {
-  margin-top: 1.25rem;
-} */
 .border-top {
-  margin-top: 5rem;
+  margin-top: 2rem;
   padding: 1.25rem 0;
   border-top: 0.0625rem solid;
-  margin-right: 1.4375rem;
+  margin-right: 1.4375rem; 
 }
 .most-popular {
   margin-bottom: 1.25rem;
@@ -257,15 +242,10 @@
   }
   .more1-item > img {
     width: 30%;
-    /* height: 9vh; */
   }
   .left-link{
     display: none;
   }
-  /* .james{
-    width: 60vw;
-    margin-right: 0.625rem;
-  } */
   .opacity{
     font-size: 0.85rem;
   }
@@ -328,8 +308,10 @@
     align-items: center;
   }
   .grid-item{
-    /* width: 30vw; */
-    margin: auto;
+    width: 30vw;
+  }
+  .grid-img1{
+    width: 100%;
   }
   .more {
     display: grid;
@@ -344,7 +326,8 @@
   }
   .more1-item {
     display: unset;
-    width: 36vw;
+    width: 30vw;
+    
   }
   .more1-item > img {
     width: 100%;
@@ -353,9 +336,6 @@
   .left-link{
     display: block; 
   }
-  /* .james{
-    width: 1vw;
-  } */
   .opacity{
     font-size: 0.85rem;
   }
@@ -409,9 +389,6 @@
     .left-link{
       display: block; 
     }
-    .james{
-      width: 1vw;
-    }
     .opacity{
       font-size: 0.85rem;
     }
@@ -422,7 +399,7 @@
     .editor{
       margin-left: .375rem;
     }
-     .none{
+    .none{
       display: block;
      }
     .links-anchor,

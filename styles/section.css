@@ -5,7 +5,6 @@
 }
 
 .main-wrap {
-  /* width: 100vw; */
   padding: 1rem;
 }
 
@@ -153,13 +152,11 @@ h1 {
 .larry-b {
   margin-top: 30px;
   border-top: 1px solid;
-  /* width: 5rem; */
 }
 
 .larry {
   margin: 30px 0;
-  /* width: 25rem; */
-  /* margin-bottom: 60px; */
+  
 }
 
 .gravity {
@@ -265,9 +262,7 @@ button:hover {
     display: none;
   }
   .larry-b{
-    /* width: 10vw; */
     margin-left: 1rem;
-    /* margin-bottom: -2rem; */
   }
   .larry{
     font-size: 0.575rem;
@@ -292,9 +287,7 @@ button:hover {
   button{
     height: 8vh;
   }
-  /* .bottom-icons {
-    padding-right: 8rem;
-  }  */
+ 
   .bottom-icon,
   .gift{
     margin-right: -1rem;
@@ -305,16 +298,10 @@ button:hover {
   .space-astronomy{
     font-size: 0.9123rem;
   }
-  /* .editor{
-    margin-left: -250px;
-  } */
+ 
   .links-logo{
     width: 5rem;
   }
-  /* .main-wrap{
-    overflow: hidden;
-  } */
-  
 }
 @media (min-width:768px){
   .edit-display{
@@ -328,6 +315,10 @@ button:hover {
   iframe{
     width: 50vw;
     height: 60vh;
+}
+
+.edit-display{
+  display: block;
 }
 
 }
