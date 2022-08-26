@@ -142,9 +142,6 @@ h6 {
     display: unset;
     height: 5vh;
   }
-  .top-left{
-    margin-right: 2rem;
-  }
   .name {
     display: none;
   }
