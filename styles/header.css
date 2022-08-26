@@ -139,7 +139,7 @@ h6 {
   }
   .subscribe,
   .login {
-    display: inline-block;
+    display: unset;
     height: 5vh;
   }
   .top-left{
