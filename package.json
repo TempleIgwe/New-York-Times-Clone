@@ -1,0 +1,27 @@
+{
+  "name": "new-york-times-clone-7",
+  "version": "1.0.0",
+  "description": "Project Live Version: [https://templeigwe.github.io/New-York-Times-Clone/]",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TempleIgwe/New-York-Times-Clone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TempleIgwe/New-York-Times-Clone/issues"
+  },
+  "homepage": "https://github.com/TempleIgwe/New-York-Times-Clone#readme",
+  "devDependencies": {
+    "hint": "^7.1.1",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.21.0"
+  }
+}
