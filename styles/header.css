@@ -30,17 +30,14 @@
 }
 
 .space {
-  text-decoration: none;
-  color: inherit;
-  margin-top: 2px;
-}
-
-.space {
   margin-left: 10px;
   padding-top: 3px;
   font-size: 15px;
   font-weight: 800;
   text-transform: uppercase;
+  text-decoration: none;
+  color: inherit;
+  margin-top: 2px;
 }
 
 .space:hover {
@@ -55,6 +52,7 @@
   background-color: rgba(234, 230, 230, 0.566);
   transition: all ease 1ms;
 }
+
 .top-image {
   height: 30px;
   margin-top: 10px;
@@ -73,6 +71,7 @@
   font-size: 12px;
   text-decoration: none;
 }
+
 .subscribe:hover,
 .login:hover {
   background-color: #326891;
@@ -86,52 +85,55 @@ h6 {
   text-align: center;
   color: rgb(203, 203, 203);
 }
+
 @media (min-width: 300px) {
   .top-right .fa-magnifying-glass,
   .space,
   .subscribe,
-  .login{
+  .login {
     display: none;
   }
+
   .name {
     display: unset;
     width: 4vw;
     margin-right: 1rem;
   }
-  .top-center{
+
+  .top-center {
     margin: auto;
   }
+
   .hidden {
     display: flex;
     justify-content: end;
     align-items: center;
     text-decoration: none;
-    font-size: 0.700rem;
+    font-size: 0.7rem;
     color: rgb(50, 104, 145);
     margin: 6px 10px 0 0;
   }
-  
 }
-@media (min-width:768px){
-  .name{
+
+@media (min-width: 768px) {
+  .name {
     width: 2vw;
   }
 }
-@media(min-width: 996px){
+
+@media (min-width: 996px) {
   .top-right .fa-magnifying-glass,
   .space {
     display: block;
   }
+
   .subscribe,
   .login {
     display: unset;
     height: 5vh;
   }
+
   .name {
     display: none;
   }
-  
 }
-
-
-
