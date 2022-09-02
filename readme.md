@@ -5,7 +5,7 @@ Project Live Version: [https://templeigwe.github.io/New-York-Times-Clone/]
 Original Page: [https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html]
 
 ### Screenshot
-<img src="./imagesSpace-Ripples-Reveal-Big-Bang-s-Smoking-Gun.png/" width="60vw" height="40vh"/>
+<img src="./images/Space-Ripples-Reveal-Big-Bang-s-Smoking-Gun.png/" width="1000px" height="400px"/>
 
 ## Built With ✨
 
