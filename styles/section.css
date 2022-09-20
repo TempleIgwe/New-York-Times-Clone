@@ -149,7 +149,6 @@ h1 {
 }
 
 .section-three {
-  max-width: 62.5rem;
   margin: auto;
   padding-top: 50px;
 }
@@ -233,6 +232,10 @@ button:hover {
 .bottom-section-one {
   width: 100%;
 }
+iframe {
+  width: 100%;
+}
+
 
 @media (min-width: 300px) {
   h1 {
@@ -290,7 +293,6 @@ button:hover {
   }
 
   iframe {
-    width: 70vw;
     height: 70vh;
   }
 
@@ -335,7 +337,6 @@ button:hover {
 
 @media (min-width: 992px) {
   iframe {
-    width: 50vw;
     height: 60vh;
   }
 
@@ -411,7 +412,6 @@ button:hover {
   }
 
   iframe {
-    width: 50vw;
     height: 60vh;
   }
 
