@@ -1,0 +1,421 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.sec-one-icons,
+.gift-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0.625rem 18.75rem 0.625rem 0;
+}
+
+.gift-img {
+  width: 1.975rem;
+}
+
+.gift-icon {
+  font-size: 12px;
+}
+
+h1 {
+  max-width: 40.625rem;
+  border-bottom: 1px solid rgb(232, 229, 229);
+  margin: auto;
+  padding: 80px 80px 25px 0;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 600;
+  font-size: 35px;
+  font-style: italic;
+}
+
+.gift {
+  border: 1px solid rgb(231, 230, 230);
+  color: rgb(73, 71, 71);
+  border-radius: 20px;
+  padding: 3px;
+  margin: 10px 0 10px 20px;
+}
+
+.gifts {
+  padding: 9px;
+  color: black;
+}
+
+.img {
+  padding: 2px;
+}
+
+.image {
+  max-width: 100%;
+  display: block;
+  margin: auto;
+}
+
+.alan {
+  margin: 0.9375rem 0 3.125rem 2rem;
+  color: gray;
+  width: 43.75rem;
+}
+
+.paragraph {
+  max-width: 37.5rem;
+  margin: auto;
+}
+
+.author {
+  max-width: 37.5rem;
+  margin: auto;
+  text-decoration: none;
+}
+
+.authors-name {
+  text-decoration: underline;
+}
+
+.author:hover {
+  text-decoration: none;
+}
+
+.font {
+  font-size: 1.25rem;
+  line-height: 1.5625rem;
+  font-family: helvetica, "Georgia", "Times New Roman", Times, serif;
+  color: #242222;
+}
+
+.authors-date {
+  margin-bottom: 1.875rem;
+  margin-top: 0.3125rem;
+}
+
+.spec {
+  margin-top: 2.5rem;
+}
+
+.header2 {
+  padding: 1.25rem 0;
+  font-size: 1.25rem;
+}
+
+.to-float {
+  width: 62.5rem;
+  margin: auto;
+}
+
+.left {
+  float: left;
+  margin-left: 5vw;
+}
+
+.float.editor-pick {
+  display: none;
+  float: left;
+  width: 15.625rem;
+  margin-right: -6.25rem;
+  margin-top: 12.5rem;
+}
+
+.edit-pick {
+  border-bottom: 1px solid rgb(203, 203, 203);
+  width: 15.625rem;
+  padding: 10px 0;
+  margin-bottom: 5px;
+  font-size: 17px;
+}
+
+.float-2 {
+  float: left;
+  clear: left;
+  margin-top: 15px;
+}
+
+.float-3 {
+  float: left;
+  width: 11.25rem;
+  margin-top: 15px;
+  padding: 10px;
+}
+
+.float-3:hover {
+  text-decoration: underline;
+}
+
+.href {
+  text-decoration: none;
+  color: rgb(84, 83, 83);
+}
+
+.section-three {
+  margin: auto;
+  padding-top: 50px;
+}
+
+.section-three .grid-container {
+  gap: 10px;
+}
+
+.larry-b {
+  margin-top: 30px;
+  border-top: 1px solid;
+}
+
+.larry {
+  margin: 30px 0;
+}
+
+.gravity {
+  text-decoration: underline;
+  color: #326891;
+}
+
+.gravity:hover {
+  text-decoration: none;
+}
+
+.theory {
+  font-size: 20px;
+}
+
+.version {
+  font-size: 10px;
+  color: rgb(113, 108, 108);
+  margin: 0 0 10px 0;
+}
+
+.version-link {
+  text-decoration: underline;
+  color: rgb(113, 108, 108);
+  border-right: 1px solid rgb(184, 184, 184);
+  padding: 5px;
+  cursor: pointer;
+}
+
+.version-link:hover {
+  text-decoration: none;
+}
+
+button {
+  margin-bottom: 10px;
+  background-color: rgb(75, 130, 170);
+  color: white;
+  word-spacing: 2px;
+  border: #567b95;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  transition: background-color 2s ease-out;
+  background-color: #0d4774;
+  cursor: pointer;
+}
+
+.bottom-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 9.3754rem;
+  border: 1px solid rgb(231, 230, 230);
+  color: rgb(73, 71, 71);
+  border-radius: 20px;
+  padding: 3px;
+  margin: 10px 0 10px -50px;
+}
+
+.bottom-icons {
+  width: 100%;
+}
+
+.bottom-section-one {
+  width: 100%;
+}
+iframe {
+  width: 100%;
+}
+
+
+@media (min-width: 300px) {
+  h1 {
+    font-size: 2rem;
+    width: 90vw;
+  }
+
+  .sec-one-icons {
+    width: 70vw;
+  }
+
+  .alan {
+    width: 85vw;
+    margin: 1rem auto;
+  }
+
+  .paragraph {
+    width: 75vw;
+    margin: auto;
+    font-size: 1.1rem;
+  }
+
+  .author {
+    color: #242222;
+    font-size: 0.85rem;
+  }
+
+  .dennis {
+    width: 92vw;
+    margin: auto;
+  }
+
+  .authors-date {
+    font-size: 0.75rem;
+  }
+
+  .to-float {
+    width: 92vw;
+  }
+
+  .editor-pick {
+    display: none;
+  }
+
+  .larry-b {
+    margin-left: 1rem;
+  }
+
+  .larry {
+    font-size: 0.575rem;
+  }
+
+  .font {
+    margin-top: 1rem;
+  }
+
+  iframe {
+    height: 70vh;
+  }
+
+  .stanford {
+    color: gray;
+    font-size: 0.9rem;
+    margin-bottom: -1rem;
+  }
+
+  .version {
+    font-size: 0.75rem;
+  }
+
+  .bottom-icon,
+  .gift {
+    margin-right: -1rem;
+  }
+
+  h3 {
+    font-size: 0.75rem;
+  }
+
+  .space-astronomy {
+    font-size: 0.9123rem;
+  }
+
+  .links-logo {
+    width: 5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .edit-display {
+    display: none;
+  }
+
+  .editor {
+    display: flex;
+    gap: 2rem;
+  }
+}
+
+@media (min-width: 992px) {
+  iframe {
+    height: 60vh;
+  }
+
+  .edit-display {
+    display: block;
+  }
+}
+
+@media (min-width: 1200px) {
+  h1 {
+    line-height: 2rem;
+    font-weight: 900;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .sec-one-icons {
+    padding-left: 3.75rem;
+  }
+
+  .image {
+    width: 80vw;
+    margin: auto;
+  }
+
+  .alan {
+    width: 80vw;
+  }
+
+  .dennis {
+    margin-right: -16.875rem;
+  }
+
+  .to-float {
+    width: 62.5rem;
+  }
+
+  .left {
+    float: left;
+    margin-left: 15vw;
+  }
+
+  .float.editor-pick {
+    display: block;
+    float: left;
+    width: 15.625rem;
+    margin-right: -6.25rem;
+    margin-top: 12.5rem;
+  }
+
+  .edit-pick {
+    border-bottom: 1px solid rgb(203, 203, 203);
+    width: 15.625rem;
+    padding: 10px 0;
+    margin-bottom: 5px;
+    font-size: 17px;
+  }
+
+  .float-2 {
+    float: left;
+    clear: left;
+    margin-top: 15px;
+  }
+
+  .float-3 {
+    float: left;
+    width: 11.25rem;
+    margin-top: 15px;
+    padding: 10px;
+  }
+
+  .clear {
+    clear: left;
+  }
+
+  iframe {
+    height: 60vh;
+  }
+
+  .links-logo {
+    width: 15vw;
+  }
+}

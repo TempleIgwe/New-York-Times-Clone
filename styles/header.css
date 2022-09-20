@@ -1,0 +1,139 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.heading {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgb(235, 235, 235);
+  margin-right: 25px;
+}
+
+.top-right {
+  display: flex;
+  padding: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.name,
+.hidden {
+  display: none;
+}
+
+.fa-magnifying-glass {
+  margin-left: 10px;
+}
+
+.space {
+  margin-left: 10px;
+  padding-top: 3px;
+  font-size: 15px;
+  font-weight: 800;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: inherit;
+  margin-top: 2px;
+}
+
+.space:hover {
+  text-decoration: underline;
+}
+
+.fa-solid {
+  padding: 10px;
+}
+
+.fa-solid:hover {
+  background-color: rgba(234, 230, 230, 0.566);
+  transition: all ease 1ms;
+}
+
+.top-image {
+  height: 30px;
+  margin-top: 10px;
+}
+
+.subscribe,
+.login {
+  background-color: #567b95;
+  border: 1px solid #326891;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 5px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.subscribe:hover,
+.login:hover {
+  background-color: #326891;
+  transition: all ease 1s;
+  text-decoration: none;
+}
+
+h6 {
+  margin-top: -50px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: rgb(203, 203, 203);
+}
+
+@media (min-width: 300px) {
+  .top-right .fa-magnifying-glass,
+  .space,
+  .subscribe,
+  .login {
+    display: none;
+  }
+
+  .name {
+    display: unset;
+    width: 4vw;
+    margin-right: 1rem;
+  }
+
+  .top-center {
+    margin: auto;
+  }
+
+  .hidden {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    text-decoration: none;
+    font-size: 0.7rem;
+    color: rgb(50, 104, 145);
+    margin: 6px 10px 0 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .name {
+    width: 2vw;
+  }
+}
+
+@media (min-width: 996px) {
+  .top-right .fa-magnifying-glass,
+  .space {
+    display: block;
+  }
+
+  .subscribe,
+  .login {
+    display: unset;
+    height: 5vh;
+  }
+
+  .name {
+    display: none;
+  }
+}
